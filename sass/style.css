@@ -194,6 +194,7 @@ footer h3 {
   background: url("../img/back.png") no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .about h1 {
@@ -236,6 +237,13 @@ footer h3 {
   width: 100px;
   height: 100px;
   position: absolute;
+}
+
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
 }
 
 .features {
